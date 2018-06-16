@@ -1,6 +1,8 @@
 <?php
     require_once "./core/autoloader.php";
     require_once "./core/helpers.php";
+
+    getConnection();
     define('API_CTRLS_DIR', __DIR__ . "/api");
     define('VIEWS_DIR', __DIR__ . "/views");
     define('CTRLS_DIR', __DIR__ . "/controllers");
